@@ -1,0 +1,58 @@
+.advantages{
+    & .hover-logo{
+        background-color: $primary-bg-hover-logo-color;
+        }
+    
+    &    .list{
+            display: flex;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-left: 0;
+         } 
+         
+    &   .title{
+        margin: 0;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: $primary-title-color;
+     }
+    
+    & .item::before{
+        display: block;
+        content: '';
+        height: 120px;
+        background-size: 70px;
+        background-repeat: no-repeat ;
+        background-position: center;
+        background-color: $bg-secondaty;
+        padding: 25px 102px;
+        border-radius: 4px;
+        margin-bottom: 30px;
+     }
+
+    @each $IconName in $icons { 
+        & .#{$IconName}::before{
+            background-image: url(../img/#{$IconName}.svg);
+        }
+
+         
+     }
+
+    & .item +.item{
+        margin-left: 30px;
+     }
+
+    & .content{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color:$primary-text-color;
+     }
+}

@@ -1,0 +1,49 @@
+body {
+    background-color:$body-bg-color;
+    font-family: Roboto, sans-serif;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+ .container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+    padding-bottom: 94px;
+    padding-top: 94px;
+ }
+ a{
+    text-decoration: none; 
+ }
+ li{
+    list-style-type: none;
+ }
+
+ button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+ }
+ 
+ .button{
+     
+    display: inline-flex;
+    color: $secodaty-title-color;
+    background-color: $primary-bg-color;
+    min-width: 200px;
+    padding: 10px 32px ;
+    box-shadow: 0px 4px 4px $primary-shadow-color;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+ }

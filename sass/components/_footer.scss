@@ -1,0 +1,146 @@
+.container-footer{
+    padding-top: 48px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px; 
+ }
+
+
+ .ftr {
+    background-color: #2F303A;
+
+    & .grid{
+        display: flex;
+     }
+
+    & b{
+        display: flex;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color:$secodaty-title-color;
+        margin-bottom: 20px;
+     }
+
+    & .join-in{
+        margin-left: 69px;
+        margin-right: auto;
+     }
+
+    & .adr{
+        display: block;
+        margin-top: 9px;
+        font-style: normal;
+     }
+
+    & .butt{
+        display: flex;
+     }
+ }
+
+ .footer-form{
+    display: flex;
+    position: relative;
+ }
+ 
+ .footer-input{
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    background-color: #2F303A;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 0 0 0 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+    &:focus + .footer-label, 
+    &:not(:placeholder-shown) + .footer-labell{
+       transform: translateY(30px);
+    }
+ }
+ 
+ .footer-label{
+    position: absolute;
+ 
+    transform: translateY(-50%);
+    left: 16px;
+    top: 50%;
+ 
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: transform $transition-diagram;
+    
+ }
+ 
+ .button.button-footer::after{
+    display: inline-block;
+    background-image: url(../img/icon-send.svg);
+    background-size: contain;
+    content: '';
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+ }
+ 
+
+.logo-footer {
+   font-family: Raleway, sans-serif;
+   font-weight: bold;
+   font-size: 22px;
+   line-height: 1.18;
+   letter-spacing: 0.03em;
+   color:$secodaty-title-color;
+
+   & span{
+    color: $primary-hover-color;
+    }
+}
+
+.address-footer {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em; 
+
+    & .to-map{
+        margin-top: 0;
+        margin-bottom: 0;
+        color:$secodaty-title-color;
+     }
+
+    & .mail-tel{
+        color: $primary-text-color;
+     }
+
+    & a{
+        color:$primary-address-ftr-color;
+     }
+ }
+
+ .subscription{
+    margin-left: 94px;
+ }
+
+ .text {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color:rgba(255, 255, 255, 0.4);
+    padding-top: 18px;
+    padding-bottom: 21px;
+    border-top:  1px solid $primary-border-ftr-color;
+ }
