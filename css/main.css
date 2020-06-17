@@ -831,6 +831,7 @@ input:not(:placeholder-shown) {
   line-height: 1.71;
   letter-spacing: 0.03em;
   position: relative;
+  cursor: pointer;
 }
 
 .checkbox {
@@ -869,6 +870,7 @@ input:not(:placeholder-shown) {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  cursor: pointer;
 }
 
 .link-contract {
@@ -896,6 +898,7 @@ input:not(:placeholder-shown) {
   color: #FFFFFF;
   margin-left: auto;
   margin-right: auto;
+  cursor: pointer;
 }
 
 .close-black {
