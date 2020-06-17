@@ -56,7 +56,14 @@ button {
 }
 
 .hide {
-  display: none;
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .logo {
@@ -862,8 +869,10 @@ input:not(:placeholder-shown) {
   width: 15px;
   height: 15px;
   margin-right: 5px;
+  margin-bottom: 3px;
   border: 2px solid #2a2a2a;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .check-label {
