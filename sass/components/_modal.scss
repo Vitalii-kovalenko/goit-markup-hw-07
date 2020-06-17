@@ -242,14 +242,11 @@
     cursor: pointer;
     transition: background-color $transition-diagram, fill $transition-diagram;
 
-    &:hover,
-    &:focus{
-       background-color: $primary-button-hoverfocus-color;
-    }
+    
 
     &:hover .close-black,
     &:focus .close-black{
-    fill: $bg-secondaty;
+    fill: $primary-button-hoverfocus-color;
     }
 }
 
