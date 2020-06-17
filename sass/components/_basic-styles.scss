@@ -1,6 +1,6 @@
 body {
     background-color:$body-bg-color;
-    font-family: Roboto, sans-serif;
+    font-family: $primari-font;
 }
 img{
     display: block;
@@ -47,3 +47,7 @@ img{
     letter-spacing: 0.06em;
     cursor: pointer;
  }
+
+ .hide{
+   display:none;
+}

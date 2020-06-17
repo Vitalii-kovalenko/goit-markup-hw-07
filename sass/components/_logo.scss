@@ -1,5 +1,5 @@
 .logo{
-    font-family: Raleway, sans-serif;
+    font-family: $logo-font;
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -9,5 +9,18 @@
 
     & span{
         color: $primary-hover-color;
+     }
+ }
+
+ .logo-footer {
+    font-family: $logo-font;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color:$secodaty-title-color;
+ 
+    & span{
+     color: $primary-hover-color;
      }
  }
