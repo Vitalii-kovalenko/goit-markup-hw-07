@@ -5,7 +5,10 @@
 
 .buttom-flex--button{
 
+   margin: 0 4px;
+
    & button {
+      
    
       background-color: $primary-button-bg-stok-color;
       color: $primary-button-text-stok-color;
@@ -15,9 +18,8 @@
       transition: color $transition-diagram, background-color  $transition-diagram;
    }
 
-   & + &{
-      margin-left: 8px;
-   }
+  
+      
 
    & button:hover,
    & button:focus{
